@@ -25,8 +25,8 @@ def processor(
 
 
 processor(
-    r"C:\Users\Anup Joseph\Anup\Core DS\SQL\Questions\medium_datasets\Last_Transaction\bank_transactions.sql",
-    table_name="bank_transactions",
-    cols=["id", "created_at", "bank_transactions"],
+    r"C:\Users\Anup Joseph\Anup\Core DS\SQL\Questions\medium_datasets\Top_Three_Salaries\departments.sql",
+    table_name="departments",
+    cols=["id", "name"],
     dataset="medium_questions_dataset",
 )
