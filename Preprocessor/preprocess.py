@@ -25,8 +25,8 @@ def processor(
 
 
 processor(
-    r"C:\Users\Anup Joseph\Anup\Core DS\SQL\Questions\hard_datasets\Rolling_Bank_Transactions\bank_transactions.sql",
-    table_name="bank_transactions",
-    cols=["user_id", "created_at", "transaction_value"],
+    r"C:\Users\Anup Joseph\Anup\Core DS\SQL\Questions\hard_datasets\Subscription_Overlap\subscriptions.sql",
+    table_name="subscriptions",
+    cols=["id", "start_date", "end_date"],
     dataset="hard_questions_dataset",
 )
