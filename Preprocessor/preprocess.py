@@ -25,8 +25,8 @@ def processor(
 
 
 processor(
-    r"C:\Users\Anup Joseph\Anup\Core DS\SQL\Questions\hard_datasets\Subscription_Overlap\subscriptions.sql",
-    table_name="subscriptions",
-    cols=["id", "start_date", "end_date"],
-    dataset="hard_questions_dataset",
+    r"C:\Users\Anup Joseph\Anup\Core DS\SQL\Questions\interviewqs\Fraudulent_Retail_Accounts\shopify_store_account.sql",
+    table_name="shopify_store_account",
+    cols=["id", "date", "status", "revenue"],
+    dataset="interviewqs",
 )
