@@ -1,3 +1,4 @@
 tasks:
-  - init: pip install --upgrade pip wheel setuptools duckdb
+  - init: pip install --upgrade pip wheel setuptools duckdb black
   - command: ls
+
