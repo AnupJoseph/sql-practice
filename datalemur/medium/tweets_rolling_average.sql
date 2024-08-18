@@ -1,6 +1,11 @@
 SELECT user_id,
     tweet_date,
-    AVG(tweet_count) OVER(
-        ORDER BY tweet_date ROWS BETWEEN 3 PRECEDING AND CURRENT ROW
+    ROUND(
+        AVG(tweet_count) OVER(
+            ORDER BY tweet_date ROWS BETWEEN 3 PRECEDING AND CURRENT ROW
+        ),
+        2
     ) AS rolling_avg_3d
 FROM tweets
+ORDER BY user_id,
+    tweet_date
